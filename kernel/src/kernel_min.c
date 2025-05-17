@@ -5,8 +5,8 @@
 #include <netdb.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
-#include "utils/conexiones.h"
-#include "utils/serializacion.h"
+#include "conexiones.h"
+#include "serializacion.h"
 
 #define IP_CPU "127.0.0.1"
 #define PUERTO_DISPATCH "8001"
