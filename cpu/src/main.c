@@ -1,4 +1,4 @@
-#include "utils/conexiones.h"
+#include "conexiones.h"
 #include "commons/log.h"
 #include "commons/config.h"
 #include "commons/string.h"
@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include "pthread.h"
 #include <stdint.h>
-#include "utils/serializacion.h"
+#include "serializacion.h"
 #include <string.h>
 
 t_log* logger_general;
